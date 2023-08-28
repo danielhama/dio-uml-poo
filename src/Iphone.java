@@ -3,55 +3,50 @@ public class Iphone implements IpodInterface, SafariInterface, TelefoneInterface
 
 	@Override
 	public void ligar() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("Ligando...");
 	}
 
 	@Override
 	public void atender() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("Atendendo...");		
 	}
 
 	@Override
 	public void iniciarCorreioVoz() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("Iniciando correio de voz...");		
+			
 	}
 
 	@Override
 	public void exibirPagina() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("Exibindo pagina...");		
 	}
 
 	@Override
 	public void adicionarNovaAba() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("Adicionando nova aba...");			
 	}
 
 	@Override
 	public void atualizarPagina() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("Atualizando pagina...");
 	}
 
 	@Override
 	public void play() {
-		// TODO Auto-generated method stub
+		System.out.println(	"Tocando...");
 		
 	}
 
 	@Override
 	public void pause() {
-		// TODO Auto-generated method stub
+		System.out.println("Pausando...");
 		
 	}
 
 	@Override
 	public void selecionarMusica() {
-		// TODO Auto-generated method stub
+		System.out.println("selecionando musica...");
 		
 	}
 
